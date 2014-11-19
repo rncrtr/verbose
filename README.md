@@ -24,64 +24,64 @@ Include verbose.css in your site, between the &lt;head&gt; and &lt;/head&gt; tag
 
 ######Replace # below with the desired pixels, unless otherwise noted. Example: w25 applies the style "width: 25px;" 
 
-Width|Definition
------|------------
+
+Width|
+------------|------------
 w#|width
 
-**Height**
 
-h#    height
+Height|
+------------|------------
+h#|height
 
 
 **Margin**
 
-mt#    margin top
+mt#|    margin top
 
-mr#    margin right
+mr#|    margin right
 
-mb#    margin bottom
+mb# |   margin bottom
 
-ml#    margin left
+ml#|    margin left
 
-m#     margin (all sides: top, right, bottom, left)
+m# |    margin (all sides: top, right, bottom, left)
 
 **Padding**
 
-pt#    padding top
+pt#|    padding top
 
-pr#    padding right
+pr#|    padding right
 
-pb#    padding bottom
+pb# |   padding bottom
 
-pl#    padding left
+pl#|    padding left
 
-p#     padding (all sides: top, right, bottom, left)
+p#  |   padding (all sides: top, right, bottom, left)
 
 **Border**
 
-bt#    border top
+bt# |   border top
 
-br#    border right
+br# |   border right
 
-bb#    border bottom
+bb#|    border bottom
 
-bl#    border left
+bl#|    border left
 
-b#     border (all sides: top, right, bottom, left)
+b# |    border (all sides: top, right, bottom, left)
 
 **Floats**
 
-clear   clear both
+clear|   clear both
 
-fl      float left
+fl |     float left
 
-fr      float right
+fr |     float right
 
-c       center container (uses margins, text align center is different, see below)
+c |      center container (uses margins, text align center is different, see below)
 
-**Clearfix Micro** (by Nicholas Gallagher)
-
-.cf
+.cf|Clearfix Micro (by Nicholas Gallagher)
 
 **Positioning**
 
