@@ -15,7 +15,7 @@ If I am utterly brilliant, please let me know that too. Can't hurt to ask nicely
 by [@rncrtr](http://twitter.com/rncrtr)
 
 ###What's next for Verbose (If there's a future we want it now)
-If you have suggestions, improvements, corrections, additions, please let me know via @rncrtr on twitter. I am open to constructive helpful ideas. I know I've left something out and there is a lot of clarity to be added for sure. This isn't a definitive framework by any means, it is an *EXPERIMENT*.
+If you have suggestions, improvements, corrections, additions, please let me know via @rncrtr on twitter. I am open to constructive helpful ideas. I'm sure I've left things out and there is a lot of clarity to be added for sure. This isn't a definitive framework by any means, it is an *EXPERIMENT*.
 
 
 ###Helpful notes
