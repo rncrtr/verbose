@@ -1,24 +1,113 @@
 verbose
 =======
-Verbose is an attempt to "DRY up" your CSS, which is typically hard to do.
-Verbose provides that elusive design consistency designers are always telling you about.
-Verbose makes it easy to see what element has what style by the class names themselves
-Verbose eliminates most of the tedious repetitive work from front end development.
+Verbose is an *experimental* tool to cut down on the work of writing CSS and keep your code cleaner (even DRYer), by applying stock styles to HTML. Verbose is mostly a thought experiment, and is not intended to be used for production sites, but more as a learning exercise. See if it holds any value for you. 
 
-This may not work the best if you only have a small amount of CSS styles. The project that spawned this idea at the time had nearly 14000 lines of not at all DRY CSS code clocking in at 267K, so this is an attempt to eliminate that load by defining styles once per website, and applying a few extra classes to elements.
+If you have suggestions, improvements, corrections, additions, please let me know via @rncrtr on twitter. I am open to constructive helpful ideas. I know I've left something out and there is a lot of clarity to be added for sure. This isn't a definitive framework by any means, it is an EXPERIMENT.
 
-# Usage
-1. Include verbose.css file in your site, between the &lt;head&gt; and &lt;/head&gt; tags.
+
+# Getting Started
+Include verbose.css in your site, between the &lt;head&gt; and &lt;/head&gt; tags.
 
     ```
     <head>
       <link rel="text/stylesheet" href="path/to/verbose.css" />
     </head>
     ```
-2. Add verbose classes to any elements that need it in multiples of 5 (most designs are in increments of 5)
+
+#Usage
+
+####Add verbose classes to your HTML elements (valid values are in multiples of 5)
 
     ```    
-    <div class="t16 fwb mt35 p10">
-      This div is 16px bold with a top margin of 35px and padding of 10px. All this applied with 16 characters and each css style defined once.
+    <div class="mt35 p10">
+      This div has a 35px top margin and 10px padding. 
     </div>
     ```
+
+#Class Reference
+
+######Replace # below with the desired pixels, unless otherwise noted. Example: w25 applies the style "width: 25px;" 
+
+**Width**
+w#    width
+
+**Height**
+h#    height
+
+
+**Margin**
+mt#    margin top
+mr#    margin right
+mb#    margin bottom
+ml#    margin left
+m#     margin (all sides: top, right, bottom, left)
+
+**Padding**
+pt#    padding top
+pr#    padding right
+pb#    padding bottom
+pl#    padding left
+p#     padding (all sides: top, right, bottom, left)
+
+**Border**
+bt#    border top
+br#    border right
+bb#    border bottom
+bl#    border left
+b#     border (all sides: top, right, bottom, left)
+
+**Floats**
+clear
+fl    float left
+fr    float right
+c     center container (uses margins, text align center is different, see below)
+
+**Clearfix Micro** (by Nicholas Gallagher)
+.cf
+
+**Positioning**
+posa   position absolute
+posr   position relative
+posf   position fixed
+
+**Position Properties**
+t#  top
+r#  right
+b#  bottom
+l#  left
+zi#  z-index
+
+**Display**
+none      display none (collapses space like it doesn't exist)
+inline    inline (no line break after the element)
+block     block (includes line break after element and clears other elements)
+iblock    inline block (includes line break after element but DOES NOT clear other elements)
+
+**Visibility**
+vis    visible
+hid    hidden  (leaves space for element in page but doesn't show it)
+
+**Text Align**
+tal    text align left
+tac    text align center
+tar    text align right
+
+**Font Size**
+fs#    font size
+
+**Font Weight**
+fw#{nth($value, 1)}{font-weight: nth($value, 1)px}
+flight{font-weight: 100}
+fnormal{font-weight: 400}
+fbold{font-weight: 700}
+
+**Font Style**
+tn    text normal
+ti    text italic
+tu    text underline
+
+**Letter Spacing**
+ls#    letter spacing (tracking)
+
+**Line Height**
+lh#    line height (leading)

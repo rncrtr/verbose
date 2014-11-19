@@ -37,7 +37,7 @@ $emsToFive: (
 .posf{position: fixed}
 
 // font style
-.tnormal{font-style: normal}
+.tn{font-style: normal}
 .ti{font-style: italic}
 .tu{text-decoration: underline}
 
@@ -59,6 +59,7 @@ $emsToFive: (
   .br#{nth($value, 1)}{border-right:nth($value, 1)px}
   .bb#{nth($value, 1)}{border-bottom:nth($value, 1)px}
   .bl#{nth($value, 1)}{border-left:nth($value, 1)px}
+  .b#{nth($value, 1)}{border:nth($value,1)px nth($value,1)px nth($value,1)px nth($value,1)px}
 }
 
 @each $value in $thousandByFive{
