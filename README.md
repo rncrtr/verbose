@@ -4,6 +4,7 @@ Verbose is an *experimental* tool to cut down on the work of writing CSS and kee
 
 If you have suggestions, improvements, corrections, additions, please let me know via @rncrtr on twitter. I am open to constructive helpful ideas. I know I've left something out and there is a lot of clarity to be added for sure. This isn't a definitive framework by any means, it is an EXPERIMENT.
 
+You will need to define your own colors and other styles that are not included, but most of the css should be pre-written for you.
 
 # Getting Started
 Include verbose.css in your site, between the &lt;head&gt; and &lt;/head&gt; tags.
@@ -12,9 +13,13 @@ Include verbose.css in your site, between the &lt;head&gt; and &lt;/head&gt; tag
       <link rel="text/stylesheet" href="path/to/verbose.css" />
     </head>
 
+# To Do
+Add negative values for appropriate styles
+
 #Usage
 
-####Add verbose classes to your HTML elements (valid values are in multiples of 5)
+####Add verbose classes to your HTML elements 
+######valid values are in multiples of 5
     
     <div class="mt35 p10">
       This div has a 35px top margin and 10px padding. 
@@ -22,10 +27,8 @@ Include verbose.css in your site, between the &lt;head&gt; and &lt;/head&gt; tag
 
 #Class Reference
 
-Replace # in the definitions below with the desired number of pixels, unless otherwise noted. 
-
 Example:
-###### w25 applies the style "width: 25px;" 
+###### class="w25" applies the style "width: 25px;" 
 
 ####Width
 Class|Description
@@ -38,6 +41,7 @@ Class|Description
 h#|height
 
 ####Margin
+Replace # with number of pixels (x5). 
 Class|Description
 ---|---
 mt#|margin top
@@ -47,6 +51,7 @@ ml#|margin left
 m#|margin (all sides: top, right, bottom, left)
 
 ####Padding
+Replace # with number of pixels (x5). 
 Class|Description
 ---|---
 pt#|padding top
@@ -56,6 +61,7 @@ pl#|padding left
 p#|padding (all sides: top, right, bottom, left)
 
 ####Border
+Replace # with number of pixels (x5). 
 Class|Description
 ---|---
 bt#|border top
@@ -71,7 +77,7 @@ clear|clear both
 fl|float left
 fr|float right
 c|center container (uses margins, text align center is different, see below)
-.cf|Clearfix Micro (by Nicholas Gallagher)
+cf|Clearfix Micro (by Nicholas Gallagher)[http://nicolasgallagher.com/micro-clearfix-hack/]
 
 ####Positioning
 Class|Description
@@ -81,6 +87,7 @@ posr|position relative
 posf|position fixed
 
 ####Position Properties
+Replace # with number of pixels (x5). 
 Class|Description
 ---|---
 t#|top
@@ -89,6 +96,7 @@ b#|bottom
 l#|left
 
 ####Z-Index
+Replace # with number of pixels (x5). 
 Class|Description
 ---|---
 zi#|z-index
@@ -115,17 +123,19 @@ tac|text align center
 tar|text align right
 
 ####Font Size
+Replace # with number of pixels (x5). 
 Class|Description
 ---|---
 fs#|font size
 
 ####Font Weight
+Replace # with number of pixels (x5). 
 Class|Description
 ---|---
 fw#|font weight
-flight#|font light
-fnormal#|font normal
-fbold#|font bold
+flight#|font light (100)
+fnormal#|font normal (400)
+fbold#|font bold (700)
 
 ####Font Style
 Class|Description
@@ -135,11 +145,13 @@ ti|text italic
 tu|text underline
 
 ####Letter Spacing
+Replace # with number of pixels (x5).
 Class|Description
 ---|---
 ls#|letter spacing (tracking)
 
 ####Line Height
+Replace # with 1/10th ems. Example: lh12 will apply "line-height: 1.2em;" 
 Class|Description
 ---|---
 lh#|line height (leading)
