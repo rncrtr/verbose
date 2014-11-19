@@ -34,9 +34,7 @@ Class|Description
 ---|---
 h#|height
 
-
-
-##Margin
+###Margin
 Class|Description
 ---|---
 mt#|margin top
@@ -45,117 +43,100 @@ mb#|margin bottom
 ml#|margin left
 m#|margin (all sides: top, right, bottom, left)
 
-##Padding
+###Padding
+Class|Description
+---|---
+pt#|padding top
+pr#|padding right
+pb#|padding bottom
+pl#|padding left
+p#|padding (all sides: top, right, bottom, left)
 
-pt#|    padding top
+###Border
+Class|Description
+---|---
+bt#|border top
+br#|border right
+bb#|border bottom
+bl#|border left
+b#|border (all sides: top, right, bottom, left)
 
-pr#|    padding right
-
-pb# |   padding bottom
-
-pl#|    padding left
-
-p#  |   padding (all sides: top, right, bottom, left)
-
-**Border**
-
-bt# |   border top
-
-br# |   border right
-
-bb#|    border bottom
-
-bl#|    border left
-
-b# |    border (all sides: top, right, bottom, left)
-
-**Floats**
-
-clear|   clear both
-
-fl |     float left
-
-fr |     float right
-
-c |      center container (uses margins, text align center is different, see below)
-
+###Floats
+Class|Description
+---|---
+clear|clear both
+fl|float left
+fr|float right
+c|center container (uses margins, text align center is different, see below)
 .cf|Clearfix Micro (by Nicholas Gallagher)
 
-**Positioning**
+###Positioning
+Class|Description
+---|---
+posa|position absolute
+posr|position relative
+posf|position fixed
 
-posa   position absolute
+###Position Properties
+Class|Description
+---|---
+t#|top
+r#|right
+b#|bottom
+l#|left
 
-posr   position relative
+###Z-Index
+Class|Description
+---|---
+zi#|z-index
 
-posf   position fixed
+###Display
+Class|Description
+---|---
+none|display none (collapses space like it doesn't exist)
+inline|inline (no line break after the element)
+block|block (includes line break after element and clears other elements)
+iblock|inline block (includes line break after element but DOES NOT clear other elements)
 
-**Position Properties**
+###Visibility
+Class|Description
+---|---
+vis|visible
+hid|hidden  (leaves space for element in page but doesn't show it)
 
-t#  top
+###Text Align
+Class|Description
+---|---
+tal|text align left
+tac|text align center
+tar|text align right
 
-r#  right
+###Font Size
+Class|Description
+---|---
+fs#|font size
 
-b#  bottom
+###Font Weight
+Class|Description
+---|---
+fw#|font weight
+flight#|font light
+fnormal#|font normal
+fbold#|font bold
 
-l#  left
+###Font Style
+Class|Description
+---|---
+tn|text normal
+ti|text italic
+tu|text underline
 
+###Letter Spacing
+Class|Description
+---|---
+ls#|letter spacing (tracking)
 
-**Z-Index**
-
-zi#  z-index
-
-**Display**
-
-none      display none (collapses space like it doesn't exist)
-
-inline    inline (no line break after the element)
-
-block     block (includes line break after element and clears other elements)
-
-iblock    inline block (includes line break after element but DOES NOT clear other elements)
-
-
-**Visibility**
-
-vis    visible
-
-hid    hidden  (leaves space for element in page but doesn't show it)
-
-**Text Align**
-
-tal    text align left
-
-tac    text align center
-
-tar    text align right
-
-**Font Size**
-
-fs#    font size
-
-**Font Weight**
-
-fw#
-
-flight#
-
-fnormal#
-
-fbold#
-
-
-**Font Style**
-
-tn    text normal
-
-ti    text italic
-
-tu    text underline
-
-**Letter Spacing**
-
-ls#    letter spacing (tracking)
-
-**Line Height**
-
-lh#    line height (leading)
+###Line Height
+Class|Description
+---|---
+lh#|line height (leading)
