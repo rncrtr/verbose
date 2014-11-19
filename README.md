@@ -39,17 +39,13 @@ h#|height
 ##Margin
 Class|Description
 ---|---
-mt#|    margin top
+mt#|margin top
+mr#|margin right
+mb#|margin bottom
+ml#|margin left
+m#|margin (all sides: top, right, bottom, left)
 
-mr#|    margin right
-
-mb# |   margin bottom
-
-ml#|    margin left
-
-m# |    margin (all sides: top, right, bottom, left)
-
-**Padding**
+##Padding
 
 pt#|    padding top
 
