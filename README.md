@@ -42,6 +42,7 @@ h#|height
 
 ####Margin
 Replace # with number of pixels (x5). 
+
 Class|Description
 ---|---
 mt#|margin top
@@ -52,6 +53,7 @@ m#|margin (all sides: top, right, bottom, left)
 
 ####Padding
 Replace # with number of pixels (x5). 
+
 Class|Description
 ---|---
 pt#|padding top
@@ -62,6 +64,7 @@ p#|padding (all sides: top, right, bottom, left)
 
 ####Border
 Replace # with number of pixels (x5). 
+
 Class|Description
 ---|---
 bt#|border top
@@ -87,7 +90,8 @@ posr|position relative
 posf|position fixed
 
 ####Position Properties
-Replace # with number of pixels (x5). 
+Replace # with number of pixels (x5).
+
 Class|Description
 ---|---
 t#|top
@@ -97,6 +101,7 @@ l#|left
 
 ####Z-Index
 Replace # with number of pixels (x5). 
+
 Class|Description
 ---|---
 zi#|z-index
@@ -124,12 +129,14 @@ tar|text align right
 
 ####Font Size
 Replace # with number of pixels (x5). 
+
 Class|Description
 ---|---
 fs#|font size
 
 ####Font Weight
 Replace # with number of pixels (x5). 
+
 Class|Description
 ---|---
 fw#|font weight
@@ -146,12 +153,14 @@ tu|text underline
 
 ####Letter Spacing
 Replace # with number of pixels (x5).
+
 Class|Description
 ---|---
 ls#|letter spacing (tracking)
 
 ####Line Height
-Replace # with 1/10th ems. Example: lh12 will apply "line-height: 1.2em;" 
+Replace # with 1/10th ems. Example: lh12 will apply "line-height: 1.2em;"
+
 Class|Description
 ---|---
 lh#|line height (leading)
