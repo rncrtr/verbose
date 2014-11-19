@@ -1,6 +1,6 @@
-verbose
+Verbose
 =======
-tl:dr; Experimental. Milage may vary. Yes, I am insane, so don't be surprised if this is all bonkers++.
+tl;dr Experimental CSS framework. Milage may vary. Yes, I am insane, so don't be surprised if this is all bonkers++.
 
 ###What is it?
 Verbose is an *experimental* tool to cut down on the work of writing CSS and keep your code cleaner (even DRYer), by applying stock premade classes to HTML. Verbose is mostly a thought experiment, and is not intended to be used for production sites, but to tinker with as a learning exercise. See if it holds any value for you, if not, this is fair warning. 
@@ -14,14 +14,19 @@ If I am utterly brilliant, please let me know that too. Can't hurt to ask nicely
 
 by [@rncrtr](http://twitter.com/rncrtr)
 
-###If There's a future we want it now
+###If there's a future we want it now
 If you have suggestions, improvements, corrections, additions, please let me know via @rncrtr on twitter. I am open to constructive helpful ideas. I know I've left something out and there is a lot of clarity to be added for sure. This isn't a definitive framework by any means, it is an *EXPERIMENT*.
 
 
-###Helpful Notes
+###Helpful notes
 You will need to define your own colors (I'm no savant) and other styles, but most of the boring css is written for you.
 
-**Verbose** is a word meaning "too many words" or "overly wordy" see [Verbose at The Free Dictionary](http://www.thefreedictionary.com/verbose) for more info. I hope and expect you to appreciate the irony herein, as I do.
+**Verbose** is a word meaning "too many words" or "overly wordy" see [Verbose at The Free Dictionary](http://www.thefreedictionary.com/verbose) for more info. I hope and expect you appreciate the irony herein, as I do.
+
+If you'd like to play with my ill-conceived brain-child, be careful with it, it should be wearing a helmet probably. All you need is to have [Sass](http://sass-lang.com/) installed, and then compile Verbose with this command:
+
+    sass --watch verbose.css.scss:verbose.css --style compressed
+    
 
 # Getting Started
 Include verbose.css in your site, between the &lt;head&gt; and &lt;/head&gt; tags.
@@ -189,8 +194,8 @@ lh#|line height (leading)
 
 Thank you for reading all the way to the bottom. You are fantastic and amazing...and good looking. Have a bit of art:
 
-D
-(:0P
-D
+    D
+    (:0P
+    D
 
-(puppy dog)
+    (puppy dog)
