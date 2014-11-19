@@ -1,12 +1,23 @@
 verbose
 =======
+tl:dr; Experimental. Milage may vary. Yes, I am insane, so don't be surprised if this is all bonkers++.
+
+###What is it?
 Verbose is an *experimental* tool to cut down on the work of writing CSS and keep your code cleaner (even DRYer), by applying stock premade classes to HTML. Verbose is mostly a thought experiment, and is not intended to be used for production sites, but to tinker with as a learning exercise. See if it holds any value for you, if not, this is fair warning. 
 
-The theory here is that it MIGHT be better to write a style once in CSS, and apply very short classes to multiple places in HTML. It COULD have some performance savings depending on the massive amount of CSS, bloat, and bad styles you have in your site. My guess is that it could be a lot. In that case, Verbose may be an alternative to that by eliminating the need for repeated style definitions. Verbose weighs in at around 150K on most days, which can be significantly better than a large CSS file. It is minified of course (using Sass).
+###All the thinks
+The theory is that it *MIGHT* be better to write a style once in CSS, and apply very short classes to multiple places in HTML. It *COULD* have some performance savings depending on the amount of "CSS" *wink wink*, bloat, and bad code you have in your site. If your site has enough spaghetti (tangled, tomatoey code) to stock Frankie Italiano's Family Diner, Verbose may be a good alternative to that madness by eliminating the need for repeated style definitions. I realize that "real developers" (angry hipsters) will flip their pivot tables b/c this is flipping the script. #dealWithIt 
 
-If you have suggestions, improvements, corrections, additions, please let me know via @rncrtr on twitter. I am open to constructive helpful ideas. I know I've left something out and there is a lot of clarity to be added for sure. This isn't a definitive framework by any means, it is an EXPERIMENT.
+Verbose weighs in at around 150K on most days, which can be significantly better than a large CSS file or 30 of them. It is minified of course (using Sass). Verbose may be a good tool for quick prototype mockups.
 
-You will need to define your own colors and other styles that are not included as usual, but most of the css should be pre-written for you.
+If I am utterly brilliant, please let me know that too. Can't hurt to ask nicely for kind words, knowing that this is the internet where horrible monsters live mostly under bridges. Thanks.
+
+-- Crazy Ryvan
+
+###If There's a future we want it now
+If you have suggestions, improvements, corrections, additions, please let me know via @rncrtr on twitter. I am open to constructive helpful ideas. I know I've left something out and there is a lot of clarity to be added for sure. This isn't a definitive framework by any means, it is an *EXPERIMENT*.
+
+You will need to define your own colors (I'm no savant) and other styles, but most of the boring css is written for you.
 
 # Getting Started
 Include verbose.css in your site, between the &lt;head&gt; and &lt;/head&gt; tags.
