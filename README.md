@@ -24,17 +24,17 @@ Include verbose.css in your site, between the &lt;head&gt; and &lt;/head&gt; tag
 
 ######Replace # below with the desired pixels, unless otherwise noted. Example: w25 applies the style "width: 25px;" 
 
-### Width
+####Width
 Class|Description
 ---|---
 w#|width
 
-### Height
+####Height
 Class|Description
 ---|---
 h#|height
 
-###Margin
+####Margin
 Class|Description
 ---|---
 mt#|margin top
@@ -43,7 +43,7 @@ mb#|margin bottom
 ml#|margin left
 m#|margin (all sides: top, right, bottom, left)
 
-###Padding
+####Padding
 Class|Description
 ---|---
 pt#|padding top
@@ -52,7 +52,7 @@ pb#|padding bottom
 pl#|padding left
 p#|padding (all sides: top, right, bottom, left)
 
-###Border
+####Border
 Class|Description
 ---|---
 bt#|border top
@@ -61,7 +61,7 @@ bb#|border bottom
 bl#|border left
 b#|border (all sides: top, right, bottom, left)
 
-###Floats
+####Floats
 Class|Description
 ---|---
 clear|clear both
@@ -70,14 +70,14 @@ fr|float right
 c|center container (uses margins, text align center is different, see below)
 .cf|Clearfix Micro (by Nicholas Gallagher)
 
-###Positioning
+####Positioning
 Class|Description
 ---|---
 posa|position absolute
 posr|position relative
 posf|position fixed
 
-###Position Properties
+####Position Properties
 Class|Description
 ---|---
 t#|top
@@ -85,12 +85,12 @@ r#|right
 b#|bottom
 l#|left
 
-###Z-Index
+####Z-Index
 Class|Description
 ---|---
 zi#|z-index
 
-###Display
+####Display
 Class|Description
 ---|---
 none|display none (collapses space like it doesn't exist)
@@ -98,25 +98,25 @@ inline|inline (no line break after the element)
 block|block (includes line break after element and clears other elements)
 iblock|inline block (includes line break after element but DOES NOT clear other elements)
 
-###Visibility
+####Visibility
 Class|Description
 ---|---
 vis|visible
 hid|hidden  (leaves space for element in page but doesn't show it)
 
-###Text Align
+####Text Align
 Class|Description
 ---|---
 tal|text align left
 tac|text align center
 tar|text align right
 
-###Font Size
+####Font Size
 Class|Description
 ---|---
 fs#|font size
 
-###Font Weight
+####Font Weight
 Class|Description
 ---|---
 fw#|font weight
@@ -124,19 +124,19 @@ flight#|font light
 fnormal#|font normal
 fbold#|font bold
 
-###Font Style
+####Font Style
 Class|Description
 ---|---
 tn|text normal
 ti|text italic
 tu|text underline
 
-###Letter Spacing
+####Letter Spacing
 Class|Description
 ---|---
 ls#|letter spacing (tracking)
 
-###Line Height
+####Line Height
 Class|Description
 ---|---
 lh#|line height (leading)
