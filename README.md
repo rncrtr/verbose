@@ -1,11 +1,11 @@
 Verbose
 =======
-tl;dr Experimental CSS framework. Milage may vary. Yes, I am insane, so don't be surprised if this is all bonkers++.
+tl;dr Experimental. Milage may vary. Yes, I am insane. Don't be surprised if this is bonkers++.
 
-###What is it?
+###What is Verbose? (RTFM)
 Verbose is an *experimental* tool to cut down on the work of writing CSS and keep your code cleaner (even DRYer), by applying stock premade classes to HTML. Verbose is mostly a thought experiment, and is not intended to be used for production sites, but to tinker with as a learning exercise. See if it holds any value for you, if not, this is fair warning. 
 
-###All the thinks
+###Why is Verbose (all the thinks)
 The theory is that it *MIGHT* be better to write a style once in CSS, and apply very short classes to multiple places in HTML. It *COULD* have some performance savings depending on the amount of "CSS" *wink wink*, bloat, and bad code you have in your site. If your site has enough spaghetti (tangled, tomatoey code) to stock Frankie Italiano's Family Diner, Verbose may be a good alternative to that madness by eliminating the need for repeated style definitions. I realize that "real developers" (angry hipsters) will flip their pivot tables b/c this is flipping the script. #dealWithIt 
 
 Verbose weighs in at around 150K on most days, which can be significantly better than a large CSS file or 30 of them. It is minified of course (using Sass). Verbose may be a good tool for quick prototype mockups.
@@ -14,7 +14,7 @@ If I am utterly brilliant, please let me know that too. Can't hurt to ask nicely
 
 by [@rncrtr](http://twitter.com/rncrtr)
 
-###If there's a future we want it now
+###What's next for Verbose (If there's a future we want it now)
 If you have suggestions, improvements, corrections, additions, please let me know via @rncrtr on twitter. I am open to constructive helpful ideas. I know I've left something out and there is a lot of clarity to be added for sure. This isn't a definitive framework by any means, it is an *EXPERIMENT*.
 
 
@@ -23,10 +23,11 @@ You will need to define your own colors (I'm no savant) and other styles, but mo
 
 **Verbose** is a word meaning "too many words" or "overly wordy" see [Verbose at The Free Dictionary](http://www.thefreedictionary.com/verbose) for more info. I hope and expect you appreciate the irony herein, as I do.
 
-If you'd like to play with my ill-conceived brain-child, be careful with it, it should be wearing a helmet probably. All you need is to have [Sass](http://sass-lang.com/) installed, and then compile Verbose with this command:
+If you'd like to play with my ill-conceived brain-child, be careful with it, it should probably be wearing a helmet. All you need is to do to frankenstein Verbose is to have [Sass](http://sass-lang.com/) installed, and then compile it with this command like usual:
 
     sass --watch verbose.css.scss:verbose.css --style compressed
     
+made with #sugarFreeCode in Denver, CO using [Nitrous.io](Nitrous.io)
 
 # Getting Started
 Include verbose.css in your site, between the &lt;head&gt; and &lt;/head&gt; tags.
