@@ -8,21 +8,17 @@ If you have suggestions, improvements, corrections, additions, please let me kno
 # Getting Started
 Include verbose.css in your site, between the &lt;head&gt; and &lt;/head&gt; tags.
 
-    ```
     <head>
       <link rel="text/stylesheet" href="path/to/verbose.css" />
     </head>
-    ```
 
 #Usage
 
 ####Add verbose classes to your HTML elements (valid values are in multiples of 5)
-
-    ```    
+    
     <div class="mt35 p10">
       This div has a 35px top margin and 10px padding. 
     </div>
-    ```
 
 #Class Reference
 
