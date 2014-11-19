@@ -33,15 +33,15 @@ Example:
 ####Width
 Class|Description
 ---|---
-w#|width
+w#|width (from 0-1000)
 
 ####Height
 Class|Description
 ---|---
-h#|height
+h#|height (from 0-1000)
 
 ####Margin
-Replace # with number of pixels (x5). 
+Replace # with number of pixels (x5) from 0-1000. 
 
 Class|Description
 ---|---
@@ -52,7 +52,7 @@ ml#|margin left
 m#|margin (all sides: top, right, bottom, left)
 
 ####Padding
-Replace # with number of pixels (x5). 
+Replace # with number of pixels (x5) from 0-1000. 
 
 Class|Description
 ---|---
@@ -63,7 +63,7 @@ pl#|padding left
 p#|padding (all sides: top, right, bottom, left)
 
 ####Border
-Replace # with number of pixels (x5). 
+Replace # with number of pixels (x5) from 0 - 200. 
 
 Class|Description
 ---|---
@@ -90,12 +90,12 @@ posr|position relative
 posf|position fixed
 
 ####Position Properties
-Replace # with number of pixels (x5).
+Replace # with number of pixels (x5) from 0-1000.
 
 Class|Description
 ---|---
 t#|top
-r#|right
+r#|right 
 b#|bottom
 l#|left
 
@@ -128,18 +128,17 @@ tac|text align center
 tar|text align right
 
 ####Font Size
-Replace # with number of pixels (x5). 
+Replace # with number of pixels (x5) from 0 - 200. 
 
 Class|Description
 ---|---
 fs#|font size
 
 ####Font Weight
-Replace # with number of pixels (x5). 
-
+ 
 Class|Description
 ---|---
-fw#|font weight
+fw#|font weight (replace # with number of pixels (x5) from 0-1000)
 flight#|font light (100)
 fnormal#|font normal (400)
 fbold#|font bold (700)
@@ -152,14 +151,17 @@ ti|text italic
 tu|text underline
 
 ####Letter Spacing
-Replace # with number of pixels (x5).
+Replace # with number of pixels (x5) from 0-1000..
 
 Class|Description
 ---|---
 ls#|letter spacing (tracking)
 
 ####Line Height
-Replace # with 1/10th ems. Example: lh12 will apply "line-height: 1.2em;"
+Replace # with 1/10th ems. 
+
+Example: 
+######lh12 will apply "line-height: 1.2em;"
 
 Class|Description
 ---|---
