@@ -22,7 +22,9 @@ Include verbose.css in your site, between the &lt;head&gt; and &lt;/head&gt; tag
 
 #Class Reference
 
-######Replace # below with the desired pixels, unless otherwise noted. Example: w25 applies the style "width: 25px;" 
+Replace # below with the desired pixels, unless otherwise noted. 
+
+######Example: w25 applies the style "width: 25px;" 
 
 ####Width
 Class|Description
