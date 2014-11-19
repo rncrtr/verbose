@@ -151,7 +151,7 @@ ti|text italic
 tu|text underline
 
 ####Letter Spacing
-Replace # with number of pixels (x5) from 0-1000..
+Replace # with number of pixels (x5) from 0-1000
 
 Class|Description
 ---|---
@@ -160,8 +160,7 @@ ls#|letter spacing (tracking)
 ####Line Height
 Replace # with 1/10th ems. 
 
-Example: 
-######lh12 will apply "line-height: 1.2em;"
+Example: lh12 will apply "line-height: 1.2em;"
 
 Class|Description
 ---|---

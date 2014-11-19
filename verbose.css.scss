@@ -53,44 +53,57 @@ $emsToFive: (
 // 1 - 200
 @each $value in $twoHundred{
   // font size
-  .fs#{nth($value, 1)}{font-size:nth($value, 1)px}
+  .fs#{nth($value, 1)}{font-size:#{nth($value, 1)}px}
   // border
-  .bt#{nth($value, 1)}{border-top:nth($value, 1)px}
-  .br#{nth($value, 1)}{border-right:nth($value, 1)px}
-  .bb#{nth($value, 1)}{border-bottom:nth($value, 1)px}
-  .bl#{nth($value, 1)}{border-left:nth($value, 1)px}
-  .b#{nth($value, 1)}{border:nth($value,1)px nth($value,1)px nth($value,1)px nth($value,1)px}
+  .bt#{nth($value, 1)}{border-top:#{nth($value, 1)}px}
+  .br#{nth($value, 1)}{border-right:#{nth($value, 1)}px}
+  .bb#{nth($value, 1)}{border-bottom:#{nth($value, 1)}px}
+  .bl#{nth($value, 1)}{border-left:#{nth($value, 1)}px}
+  .b#{nth($value, 1)}{border:#{nth($value,1)}px #{nth($value,1)}px #{nth($value,1)}px #{nth($value,1)}px}
 }
 
 @each $value in $thousandByFive{
   // margin
-  .mt#{nth($value, 1)}{margin-top:nth($value,1)px}
-  .mr#{nth($value, 1)}{margin-right:nth($value,1)px}
-  .mb#{nth($value, 1)}{margin-bottom:nth($value,1)px}
-  .ml#{nth($value, 1)}{margin-left:nth($value,1)px}
-  .m#{nth($value, 1)}{margin:nth($value,1)px nth($value,1)px nth($value,1)px nth($value,1)px}
+  .mt#{nth($value, 1)}{margin-top:#{nth($value,1)}px}
+  .mr#{nth($value, 1)}{margin-right:#{nth($value,1)}px}
+  .mb#{nth($value, 1)}{margin-bottom:#{nth($value,1)}px}
+  .ml#{nth($value, 1)}{margin-left:#{nth($value,1)}px}
+  .mt-#{nth($value, 1)}{margin-top:-#{nth($value,1)}px}
+  .mr-#{nth($value, 1)}{margin-right:-#{nth($value,1)}px}
+  .mb-#{nth($value, 1)}{margin-bottom:-#{nth($value,1)}px}
+  .ml-#{nth($value, 1)}{margin-left:-#{nth($value,1)}px}
+  .m#{nth($value, 1)}{margin:#{nth($value,1)}px #{nth($value,1)}px #{nth($value,1)}px #{nth($value,1)}px}
   // padding
-  .pt#{nth($value, 1)}{padding-top: nth($value, 1)px}
-  .pr#{nth($value, 1)}{padding-right: nth($value, 1)px}
-  .pb#{nth($value, 1)}{padding-bottom: nth($value, 1)px}
-  .pl#{nth($value, 1)}{padding-left: nth($value, 1)px}
-  .p#{nth($value, 1)}{padding:nth($value, 1)px nth($value, 1)px nth($value, 1)px nth($value, 1)px}
+  .pt#{nth($value, 1)}{padding-top:#{nth($value, 1)}px}
+  .pr#{nth($value, 1)}{padding-right:#{nth($value, 1)}px}
+  .pb#{nth($value, 1)}{padding-bottom:#{nth($value, 1)}px}
+  .pl#{nth($value, 1)}{padding-left:#{nth($value, 1)}px}
+  .pt-#{nth($value, 1)}{padding-top:-#{nth($value, 1)}px}
+  .pr-#{nth($value, 1)}{padding-right:-#{nth($value, 1)}px}
+  .pb-#{nth($value, 1)}{padding-bottom:-#{nth($value, 1)}px}
+  .pl-#{nth($value, 1)}{padding-left:-#{nth($value, 1)}px}
+  .p#{nth($value, 1)}{padding:#{nth($value, 1)}px #{nth($value, 1)}px #{nth($value, 1)}px #{nth($value, 1)}px}
   //letter spacing
-  .ls#{nth($value, 1)}{letter-spacing: nth($value, 1)px}
+  .ls#{nth($value, 1)}{letter-spacing:#{nth($value, 1)}px}
+  .ls-#{nth($value, 1)}{letter-spacing:-#{nth($value, 1)}px}
   // width
-  .w#{nth($value, 1)}{width:nth($value, 1)px}
+  .w#{nth($value, 1)}{width:#{nth($value, 1)}px}
   // height
-  .h#{nth($value, 1)}{height:nth($value, 1)px}
+  .h#{nth($value, 1)}{height:#{nth($value, 1)}px}
   // top
-  .t#{nth($value, 1)}{top:nth($value, 1)px}
-  .r#{nth($value, 1)}{right:nth($value, 1)px}
-  .b#{nth($value, 1)}{bottom:nth($value, 1)px}
-  .l#{nth($value, 1)}{left:nth($value, 1)px}
-  .zi#{nth($value, 1)}{z-index:nth($value, 1)px}
+  .t#{nth($value, 1)}{top:#{nth($value, 1)}px}
+  .r#{nth($value, 1)}{right:#{nth($value, 1)}px}
+  .b#{nth($value, 1)}{bottom:#{nth($value, 1)}px}
+  .l#{nth($value, 1)}{left:#{nth($value, 1)}px}
+  .t-#{nth($value, 1)}{top:-#{nth($value, 1)}px}
+  .r-#{nth($value, 1)}{right:-#{nth($value, 1)}px}
+  .b-#{nth($value, 1)}{bottom:-#{nth($value, 1)}px}
+  .l-#{nth($value, 1)}{left:-#{nth($value, 1)}px}
+  .zi#{nth($value, 1)}{z-index:#{nth($value, 1)}px}
 }
 // font weight
 @each $value in $fontWeight{
-  .fw#{nth($value, 1)}{font-weight: nth($value, 1)px}
+  .fw#{nth($value, 1)}{font-weight: #{nth($value, 1)}px}
 }
 .flight{font-weight: 100}
 .fnormal{font-weight: 400}
