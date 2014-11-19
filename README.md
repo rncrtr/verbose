@@ -50,14 +50,18 @@ Example:
 ###### class="w25" applies the style "width: 25px;" 
 
 ####Width
+Replace # with number of pixels (x5) from 0-1000.
+
 Class|Description
 ---|---
-w#|width (from 0-1000)
+w#|width
 
 ####Height
+Replace # with number of pixels (x5) from 0-1000.
+
 Class|Description
 ---|---
-h#|height (from 0-1000)
+h#|height
 
 ####Margin
 Replace # with number of pixels (x5) from 0-1000. 
