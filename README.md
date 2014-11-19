@@ -79,7 +79,7 @@ clear|clear both
 fl|float left
 fr|float right
 c|center container (uses margins, text align center is different, see below)
-cf|Clearfix Micro (by Nicholas Gallagher)[http://nicolasgallagher.com/micro-clearfix-hack/]
+cf|Clearfix Micro [by Nicholas Gallagher](http://nicolasgallagher.com/micro-clearfix-hack/)
 
 ####Positioning
 Class|Description
