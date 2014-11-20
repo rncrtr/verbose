@@ -33,16 +33,18 @@ made with #sugarFreeCode in Denver, CO using [Nitrous.io](Nitrous.io)
 Include verbose.css in your site, between the &lt;head&gt; and &lt;/head&gt; tags.
 
     <head>
-      <link rel="text/stylesheet" href="path/to/verbose.css" />
+      <link rel="stylesheet" href="path/to/verbose.css" />
     </head>
+
+The node__modules folder, server.js, and package.json files are all there for testing purposes only, just a small server to run locally. You shouldn't need them at all.
 
 #Usage
 
 ####Add verbose classes to your HTML elements 
-######valid values are in multiples of 5
+######valid values are in multiples of 5, may add singles if needed.
     
-    <div class="mt35 p10">
-      This div has a 35px top margin and 10px padding. 
+    <div class="fs15 p15 m30">
+      This is 15px text with 15px padding and 30px margin on all sides.
     </div>
 
 #Class Reference
