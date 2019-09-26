@@ -18,7 +18,7 @@ by [@rncrtr](http://twitter.com/rncrtr)
 If you have suggestions, improvements, corrections, additions, please let me know via @rncrtr on twitter. I am open to constructive helpful ideas. I'm sure I've left things out and there is a lot of clarity to be added for sure. This isn't a definitive framework by any means, it is an *EXPERIMENT*.
 
 
-###Helpful notes
+### Helpful notes
 You will need to define your own colors (I'm no savant) and other styles, but most of the boring css is written for you.
 
 **Verbose** is a word meaning "too many words" or "overly wordy" see [Verbose at The Free Dictionary](http://www.thefreedictionary.com/verbose) for more info. I hope and expect you appreciate the irony herein, as I do.
@@ -38,7 +38,7 @@ Include verbose.css in your site, between the &lt;head&gt; and &lt;/head&gt; tag
 
 The node__modules folder, server.js, and package.json files are all there for testing purposes only, just a small server to run locally. You shouldn't need them at all.
 
-#Usage
+# Usage
 
 #### Add verbose classes to your HTML elements 
 ###### valid values are in multiples of 5, may add singles if needed.
@@ -47,7 +47,7 @@ The node__modules folder, server.js, and package.json files are all there for te
       This is 15px text with 15px padding and 30px margin on all sides.
     </div>
 
-#Class Reference
+# Class Reference
 
 Example:
 ###### class="w25" applies the style "width: 25px;" 
