@@ -2,10 +2,10 @@ Verbose
 =======
 tl;dr Experimental. Milage may vary. Yes, I am insane. Don't be surprised if this is bonkers++.
 
-###What is Verbose? (RTFM)
+### What is Verbose?
 Verbose is an *experimental* tool to cut down on the work of writing CSS and keep your code cleaner (even DRYer), by applying stock premade classes to HTML. Verbose is mostly a thought experiment, and is not intended to be used for production sites, but to tinker with as a learning exercise. See if it holds any value for you, if not, this is fair warning. 
 
-###Why is Verbose (all the thinks)
+### Why is Verbose (all the thinks)
 The theory is that it *MIGHT* be better to write a style once in CSS, and apply very short classes to multiple places in HTML. It *COULD* have some performance savings depending on the amount of "CSS" *wink wink*, bloat, and bad code you have in your site. If your site has enough spaghetti (tangled, tomatoey code) to stock Frankie Italiano's Family Diner, Verbose may be a good alternative to that madness by eliminating the need for repeated style definitions. I realize that "real developers" (angry hipsters) will flip their pivot tables b/c this is flipping the script. #dealWithIt 
 
 Verbose weighs in at around 150K on most days, which can be significantly better than a large CSS file or 30 of them. It is minified of course (using Sass). Verbose may be a good tool for quick prototype mockups.
@@ -14,7 +14,7 @@ If I am utterly brilliant, please let me know that too. Can't hurt to ask nicely
 
 by [@rncrtr](http://twitter.com/rncrtr)
 
-###What's next for Verbose (If there's a future we want it now)
+### What's next for Verbose (If there's a future we want it now)
 If you have suggestions, improvements, corrections, additions, please let me know via @rncrtr on twitter. I am open to constructive helpful ideas. I'm sure I've left things out and there is a lot of clarity to be added for sure. This isn't a definitive framework by any means, it is an *EXPERIMENT*.
 
 
@@ -40,8 +40,8 @@ The node__modules folder, server.js, and package.json files are all there for te
 
 #Usage
 
-####Add verbose classes to your HTML elements 
-######valid values are in multiples of 5, may add singles if needed.
+#### Add verbose classes to your HTML elements 
+###### valid values are in multiples of 5, may add singles if needed.
     
     <div class="fs15 p15 m30">
       This is 15px text with 15px padding and 30px margin on all sides.
@@ -52,21 +52,21 @@ The node__modules folder, server.js, and package.json files are all there for te
 Example:
 ###### class="w25" applies the style "width: 25px;" 
 
-####Width
+#### Width
 Replace # with number of pixels (x5) from 0-1000.
 
 Class|Description
 ---|---
 w#|width
 
-####Height
+#### Height
 Replace # with number of pixels (x5) from 0-1000.
 
 Class|Description
 ---|---
 h#|height
 
-####Margin
+#### Margin
 Replace # with number of pixels (x5) from 0-1000. 
 
 Class|Description
@@ -77,7 +77,7 @@ mb#|margin bottom
 ml#|margin left
 m#|margin (all sides: top, right, bottom, left)
 
-####Padding
+#### Padding
 Replace # with number of pixels (x5) from 0-1000. 
 
 Class|Description
@@ -88,7 +88,7 @@ pb#|padding bottom
 pl#|padding left
 p#|padding (all sides: top, right, bottom, left)
 
-####Border
+#### Border
 Replace # with number of pixels (x5) from 0 - 200. 
 
 Class|Description
@@ -99,7 +99,7 @@ bb#|border bottom
 bl#|border left
 b#|border (all sides: top, right, bottom, left)
 
-####Floats
+#### Floats
 Class|Description
 ---|---
 clear|clear both
@@ -108,14 +108,14 @@ fr|float right
 c|center container (uses margins, text align center is different, see below)
 cf|Clearfix Micro [by Nicholas Gallagher](http://nicolasgallagher.com/micro-clearfix-hack/)
 
-####Positioning
+#### Positioning
 Class|Description
 ---|---
 posa|position absolute
 posr|position relative
 posf|position fixed
 
-####Position Properties
+#### Position Properties
 Replace # with number of pixels (x5) from 0-1000.
 
 Class|Description
@@ -125,14 +125,14 @@ r#|right
 b#|bottom
 l#|left
 
-####Z-Index
+#### Z-Index
 Replace # with number of pixels (x5). 
 
 Class|Description
 ---|---
 zi#|z-index
 
-####Display
+#### Display
 Class|Description
 ---|---
 none|display none (collapses space like it doesn't exist)
@@ -140,27 +140,27 @@ inline|inline (no line break after the element)
 block|block (includes line break after element and clears other elements)
 iblock|inline block (includes line break after element but DOES NOT clear other elements)
 
-####Visibility
+#### Visibility
 Class|Description
 ---|---
 vis|visible
 hid|hidden  (leaves space for element in page but doesn't show it)
 
-####Text Align
+#### Text Align
 Class|Description
 ---|---
 tal|text align left
 tac|text align center
 tar|text align right
 
-####Font Size
+#### Font Size
 Replace # with number of pixels (x5) from 0 - 200. 
 
 Class|Description
 ---|---
 fs#|font size
 
-####Font Weight
+#### Font Weight
  
 Class|Description
 ---|---
@@ -169,21 +169,21 @@ flight#|font light (100)
 fnormal#|font normal (400)
 fbold#|font bold (700)
 
-####Font Style
+#### Font Style
 Class|Description
 ---|---
 tn|text normal
 ti|text italic
 tu|text underline
 
-####Letter Spacing
+#### Letter Spacing
 Replace # with number of pixels (x5) from 0-1000
 
 Class|Description
 ---|---
 ls#|letter spacing (tracking)
 
-####Line Height
+#### Line Height
 Replace # with 1/10th ems. 
 
 Example: lh12 will apply "line-height: 1.2em;"
